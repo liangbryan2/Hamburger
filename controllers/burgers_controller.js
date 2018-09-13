@@ -22,7 +22,7 @@ router.post("/api/burgers", function (req, res) {
 })
 
 router.put("/api/burgers/:id", function (req, res) {
-    var condtion = "id = " + req.params.id;
+    var condition = "id = " + req.params.id;
 
     burger.updateOne({
         devoured: req.body.devoured
@@ -34,3 +34,5 @@ router.put("/api/burgers/:id", function (req, res) {
         }
     })
 })
+
+module.exports = router;
