@@ -1,7 +1,7 @@
 # Burger Devourer
 Node Express Handlebars Burger App
 
-![index](/public/assets/img/index.png)
+![index](https://raw.githubusercontent.com/liangbryan2/Hamburger/master/public/assets/img/index.PNG)
 
 ## Getting Started
 [Burgers](https://burgereater2.herokuapp.com/)
