@@ -39,6 +39,9 @@
 <script type="text/javascript">
     $("#newBtn").on("click", function (e) {
         e.preventDefault();
+        if (!$("#newBurger").val().trim()) {
+            return console.log("empty name");
+        }
         var burger = {
             name: $("#newBurger").val().trim()
         }
